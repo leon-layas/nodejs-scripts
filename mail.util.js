@@ -1,8 +1,8 @@
 const nodemailer = require('nodemailer');
 const log = require('./log.util');
 
-const EMAIL_ADDRESS = 'user-accounts@light-code.co.uk';
-const EMAIL_PASSWORD = 'J1k2L3!!';
+const EMAIL_ADDRESS = 'YOU EMAIL ADDRESS HERE';
+const EMAIL_PASSWORD = 'YOUR PASSWORD HERE';
 
 const sendMail = (to, subject, text) => {
     const transporter = nodemailer.createTransport({
